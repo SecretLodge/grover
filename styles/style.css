@@ -1,0 +1,71 @@
+:root {
+    --transition-duration: 0.2s;
+
+    --color-white: #ffffff;
+
+    --color-red: #f55253;
+    --color-red-light: #fdecec;
+
+    --color-black: #2e2e2e;
+
+    --color-gray: #4d4d4d;
+    --color-gray-dark: #232323;
+    --color-gray-light: #a5a4a4;
+
+    --font-size-1xsmall: 10px;
+    --font-size-2xsmall: 12px;
+    --font-size-3xsmall: 14px;
+    --font-size-1xmedium: 16px;
+    --font-size-2xmedium: 18px;
+    --font-size-3xmedium: 20px;
+    --font-size-4xmedium: 22px;
+    --font-size-1xlarge: 40px;
+
+    --input-height: 54px;
+    --input-search-width: 229px;
+
+    --button-cart-height: 54px;
+    --button-cart-width: 60px;
+
+    --border-radius-1xsmall: 10px;
+    --border-radius-2xsmall: 12px;
+    --border-radius-medium: 20px;
+
+    --font-family-primary: 'Poppins', sans-serif;
+    --font-family-secondary: 'Inter', sans-serif;
+
+    --header-padding-y: 50px;
+
+    --section-padding-x: 15px;
+    --section-padding-y: 100px;
+
+    --section-width: 1160px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px var(--color-white) inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.visually__hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    margin-inline: auto;
+    padding-inline: var(--section-padding-x);
+    max-width: calc(var(--section-width) + var(--section-padding-x) * 2);
+}
+
+.section {
+    padding-block: var(--section-padding-y);
+}

@@ -1,0 +1,44 @@
+{
+    "icons": [
+        {
+            "src": "images/favicons/16x16.png",
+            "type": "image/x-icon",
+            "rel": "icon",
+            "sizes": "16x16"
+        },
+        {
+            "src": "images/favicons/32x32.png",
+            "type": "image/x-icon",
+            "rel": "icon",
+            "sizes": "32x32"
+        },
+        {
+            "src": "images/favicons/32x32.svg",
+            "type": "image/svg+xml",
+            "rel": "icon",
+            "sizes": "32x32"
+        },
+        {
+            "src": "favicon.ico",
+            "type": "image/x-icon",
+            "rel": "ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "images/favicons/apple-touch-icon.png",
+            "type": "image/x-icon",
+            "rel": "apple-touch-icon",
+            "sizes": "180x180"
+        },
+        {
+            "src": "images/favicons/192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/favicons/512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
